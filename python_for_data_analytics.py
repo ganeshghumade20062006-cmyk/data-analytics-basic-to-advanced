@@ -55,14 +55,33 @@ using python programming language'''
 
 # .....
 
+print("creating varibles in python")
 
+"""variables are placeholders, in which we can store a value """
 
+a="hello"
+print(a)
+# hello
 
+a="hello"
+print("a")
+# a
 
+# rules fow writting variables in python
+# 1. in starting of variable any name is given then in print statement same this letter is compulsory other wise it through error
 
+Name="Ganesh"
+print(Name)
+# Ganesh
 
+# 2.make sure to not use space while creating a variable
+# if want to create space then use underscore symbol(_)
 
+one_number="Ganesh Yash"
+print(one_number)
+# Ganesh Yash
 
+# 3. a variable name should never start with a number or special symbol
 
-
+# .....
 
