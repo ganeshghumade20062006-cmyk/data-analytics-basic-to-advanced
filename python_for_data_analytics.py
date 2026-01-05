@@ -85,3 +85,46 @@ print(one_number)
 
 # .....
 
+print("data type and user-input")
+
+# Datatypes:
+
+"""text-type: string(str)
+numeric type: integer(int),floting point(flot),complex
+sequence type: list,tuple and range
+mapping type: dictionaries(dict)
+set type: set, frozenset
+boolean type: bool
+binary types: bytes, bytearry, memoryview"""
+
+"""user input""" # in string type
+
+name=input("enter your name here: ")
+print(name)
+# enter your name here: Ganesh
+# Ganesh
+
+
+"""user input""" # in integer type (int)
+
+age=int(input("enter your age here: "))
+print(age)
+# enter your age here: 20
+# 20
+
+"""user input""" # in floating point type (float)
+
+length=float(input("enter thee length of the rectangle: "))
+print(length)
+# enter thee length of the rectangle: 42.2
+# 42.2
+
+ 
+"""user input""" # in evaluating the expression (eval)
+
+exp1=eval(input("enter any equation here: "))
+print(exp1)
+# enter any equation here: 56+44
+# 100
+
+# .....
