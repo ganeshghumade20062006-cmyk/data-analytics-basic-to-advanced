@@ -128,3 +128,61 @@ print(exp1)
 # 100
 
 # .....
+
+print("typecasting and subtypes")
+
+"""conversion of one datatype to another is caleed as type-casting
+there are two type of type-casting:
+1. implicit typw conversion
+2. exxplicit type conversion"""
+
+name="Ganesh"
+print(type(name))
+# <class 'str'>
+
+age=20
+print(type(age))
+# <class 'int'>
+
+""" implicit type conversion """
+a=123
+b=1.23
+print (type(a))
+print(type(b))
+
+c=a+b
+print(c)
+print(type(c))
+
+# <class 'int'>
+# <class 'float'>
+# 124.23
+# <class 'float'>
+
+"""" explicit type conversion"""
+
+a="123" # Here a is in the form of string. We cannot add string and flooat together.That's why firstly convert string as an integer 
+a=int(a)  # after conversion <class 'int'>
+b=1.23  # <class 'float'> 
+  
+print(type(a))
+print(type(b))
+c=a+b      # 124.23
+print(c)
+
+print(type(c))  # <class 'float'>
+
+
+
+a="123" # Here a is in the form of string. We cannot add string and flooat together.That's why firstly convert string as an float 
+a=float(a)  # after conversion <class 'float'>
+b=1.23  # <class 'float'> 
+  
+print(type(a))
+print(type(b))
+c=a+b      # 124.23
+print(c)
+
+print(type(c))  # <class 'float'>
+
+# .....
