@@ -186,3 +186,80 @@ print(c)
 print(type(c))  # <class 'float'>
 
 # .....
+
+print("problem soling") 
+
+1.
+"""write a program to display a person's name, age and 
+# address in three different lines."""
+
+name="yash"
+age=23
+address="654 lake street"
+
+print(name)
+print(age)
+print(address)
+
+# yash
+# 23
+# 654 lake street
+
+2.
+"""write  a program to convert a float into integer"""
+
+x=12.4
+print(type(x))
+# <class 'float'>
+
+x=int(x)
+print(type(x))
+# <class 'int'>
+print (x)
+# 12
+
+
+3.
+""""write a program to take details from a student for id-card and then print in different lines"""
+
+name=input("enter the name of the student: ")
+grade=input("enter the grade of the stident: ")
+age=int(input("enter the age of the student: "))
+email=input("enter the email of the student: ")
+phone_number=input("enter the phone number of the students: ")
+print("student identity card")
+
+print("name:", name)
+print("grade:", grade)
+print("age:", age)
+print("email:", email)
+print("phone_number:", phone_number)
+
+output="""enter the name of the student: Yash
+# enter the grade of the stident: 5th
+# enter the age of the student: 10
+# enter the email of the student: yash@gmail.com
+# enter the phone number of the students: 8888888888
+# student identity card
+# name: Yash
+# grade: 5th
+# age: 10
+# email: yash@gmail.com
+# phone_number: 8888888888"""
+
+4.
+""""write a program to take an user input as integer then convert it as float"""
+
+a=int(input("enter a number here: "))
+print(a)
+print(type(a))
+# enter a number here: 12
+# 12
+# <class 'int'>
+
+a=float(a)
+print("after conversion", a)   # after conversion 12.0
+print(type(a))
+# <class 'float'>
+
+# .....
