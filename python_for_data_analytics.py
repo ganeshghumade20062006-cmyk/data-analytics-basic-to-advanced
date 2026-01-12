@@ -263,3 +263,34 @@ print(type(a))
 # <class 'float'>
 
 # .....
+
+
+print("Swap two variables")
+
+# method 1 (use temporary variables(temp))
+
+x=12
+y=13
+
+temp=x
+print(temp)  # 12 value of temp
+x=y
+print(x)
+# 13 (value of x)
+"""here the value of x is now 13 """
+
+y=temp
+print(y) 
+# 12 (value of y)
+""""and here the value of y is 12"""
+
+# method 2
+
+a=30
+b=40
+
+a,b=b,a
+print(a)  # value of a is 40
+print(b)  # value of b is 30
+
+# .....
