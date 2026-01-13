@@ -294,3 +294,27 @@ print(a)  # value of a is 40
 print(b)  # value of b is 30
 
 # .....
+
+print("operators and operands")
+
+"""operators indicates what operatio is to be performed while operand 
+indicates on what the action or the operation should be performed.
+
+x+y=0 
+in the given experation, x,y, and 0 are thr operands. """
+
+# types of operators:
+
+""" operators can be further divided into 6 categories
+1.Arithmetic operation
+2.Comparison operation
+3.Logical operation
+4.Assignment operation
+5.Identity operation
+6.Membership operation
+7.Bitwise operation """
+
+# .....
+
+
+
