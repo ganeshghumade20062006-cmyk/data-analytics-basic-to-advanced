@@ -316,5 +316,73 @@ in the given experation, x,y, and 0 are thr operands. """
 
 # .....
 
+print("Arithmetic Operators")
 
+"""
+1.Addition (+)
+2.Substraction (-)
+3.Multiplaction (*)
+4.Floor division (//)
+5.Exponentiation (**)
+6.Division (/)
+7.Modulus (%)
+"""
+# 1.Addition (+)
+"""10+2=12"""
 
+#2.Substraction (-)
+"""15-5=10"""
+
+# 3.Multiplaction (*)
+"""5*5=25"""
+
+# 4.Floor divisiion (//)
+"""If we divide 8 by 3 then quotient is 2.6666.. and reminder is 2
+in above example floor division of the 8 by 3 is 2"""
+
+print(8//3)
+# 2
+
+print(12//3)
+# 4
+
+print(13//3)
+# 4
+
+# 5.Exponentiation (**)
+
+"""in general to wrtie 2 the powerr 10
+here 2**10"""
+
+print(2**10)
+# 1024
+
+print(2**2)
+# 4
+
+print(10**10)
+# 10000000000
+
+# 6.Division (/)
+
+"""5/5=1
+10/5=2"""
+
+# 7.Modulus (%)
+
+"""we use modulus in the pyrhon for to find remender 
+here we divide 8 by 3 then the remender is 2"""
+
+print(8%3)
+# 2
+
+print(10%5)
+# 0
+
+print(20%3)
+# 2
+
+print(13%6)
+# 1
+
+# .....
