@@ -386,3 +386,121 @@ print(13%6)
 # 1
 
 # .....
+
+print("comparisional operators")
+
+"""
+python comparison operators
+
+1.Greater than '>'
+2.Less than '<'
+3.Equal to '=='
+4.Not equal to '!='
+5.Greater than or equal to '>='
+6.Less than or erual to '<='
+"""
+
+# 1. Greater than '>'
+
+print(9>6) 
+# True
+
+print(10>9)
+# True
+
+print(45>30)
+# True
+
+print(55>58)
+# False
+
+print(89>90)
+# False
+
+
+# 2.Less than '<' 
+
+print(9<6) 
+# False
+
+print(10<9)
+# False
+
+print(45<30)
+# False
+
+print(55<58)
+# True
+
+print(89<90)
+# True
+
+# 3. Equal to '=='
+
+print(3==3)
+# True
+
+print(8==8)
+# True
+
+print(10==10)
+# True
+
+print(6==5)
+# False
+
+print(3==8)
+# False
+
+# 4. Not equal to '!='
+
+print(3!=10)
+# True
+
+print(6!=15)
+# True
+
+print(9!=10)
+# True
+
+print(10!=10)
+# False
+
+print(6!=6)
+# False
+
+# 5. Greater than or equal to '>='
+
+print(3>=3)
+# True
+
+print(5>=1)
+# True
+
+print(10>=5)
+# True
+
+print(10>=20)
+# False
+
+print(15>=20)
+# False
+
+# 6.Less than or erual to '<='
+
+print(10<=20)
+# True
+
+print(5<=6)
+# True
+
+print(10<=10)
+# True
+
+print(5<=4)
+# False
+
+print(12<=10)
+# False
+
+# .....
