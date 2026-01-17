@@ -504,3 +504,60 @@ print(12<=10)
 # False
 
 # .....
+
+print("logical operators")
+
+"""1.operator:(and)
+meaning: true if both the operanda are true 
+example: x and y
+
+2.operator:(or)
+meaning: true if either of the operanda is true 
+example: x or y 
+
+3.operator:(not)
+meaning: true if operand is false (complements the operand)
+exaple: not x
+"""
+
+# 1.operator: (and)
+
+print(3>4 and 3<4)
+# False
+print(6>10 and 6<10)
+# False
+print(9<10 and 12>10)
+# True
+print(7>5 and 4<2)
+# False
+print(3<4 and 6>4)
+# True
+
+# 2.operator:(or)
+
+print(3>4 or 3<4)
+# False
+print(6>10 or 6<10)
+# False
+print(9<10 or 12>10)
+# True
+print(3>5 or 9<2)
+# False
+print(3<4 or 6>4)
+# True
+
+# 3.operator:(not)
+# opposite 
+
+print(not(3>4 or 3<4))
+# False
+print(not(6>10 or 6<10))
+# False
+print(not(9<10 or 12>10))
+# False
+print(not(3>5 and 9<2))
+# True
+print(not(3<4 and 6>4))
+# False
+
+# .....
