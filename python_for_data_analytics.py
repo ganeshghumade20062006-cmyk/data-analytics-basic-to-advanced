@@ -561,4 +561,30 @@ print(not(3<4 and 6>4))
 # False
 
 # .....
-print("Ganesh")
+
+print ("assignment operators")
+
+"""assignment operators are used in python to assign to variables.
+a=6 is a simple assignment operator that assigns the value 6 on the right 
+to the variable o on the left..
+
+1.operator:=
+example:x=6
+equivalent to: x=6
+
+2.operator:+=
+example:x+=6
+eqivalent to: x=x+6
+
+
+3.operator: -=
+example: x-=6
+eqivalent to: x=x-6
+
+
+4.operator: *=
+example: x*=6
+eqivalent to: x=x*6
+"""
+
+# .....
