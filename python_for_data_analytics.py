@@ -588,3 +588,45 @@ eqivalent to: x=x*6
 """
 
 # .....
+
+print("identity operators")
+
+"""identity operators are uused to compare items to see if they are 
+the same object with the same memory address"""
+
+# types 
+"""
+1.Is
+2.Is not 
+"""
+
+# 1.Is
+
+1.
+a=1234
+b="1234"
+print (a is b)
+# False 
+
+2.
+a=1234
+b=1234
+
+print(a is b)
+# True
+
+# 2.Is not 
+
+a=1234
+b="1234"
+print (a is not b)
+# True
+
+2.
+a=1234
+b=1234
+
+print(a is not b)
+# False 
+
+# .....
