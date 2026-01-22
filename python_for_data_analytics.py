@@ -630,3 +630,131 @@ print(a is not b)
 # False 
 
 # .....
+
+print("Bitwise operators")
+
+"""
+these operators are used to comapre the binary numbers
+Types
+1.AND (&) Operator
+2.OR (|) Operator 
+3.XOR (^) operator
+4.<<zero fill left shift
+5.>>zero fill right shift
+
+operation         result
+
+0&0                0
+1&0                0 
+0&1                0
+1&1                1
+"""
+
+print(bin(10))
+# 0b1010
+
+print(bin(15))
+# 0b1111
+
+print(bin(20))
+# 0b10100
+
+
+
+# 1.AND (&) Operator
+
+# implementation of And operation on Binary digits 
+
+1.
+a=10
+b=8
+
+print(a&b)
+# 8
+
+2.
+c=56
+b=5
+
+print(c&b)
+# 0
+
+
+# 2.OR (|) Operator 
+
+"""
+OR operator 
+
+Bitwise Or operations 
+
+operation       result
+
+0|0               0
+1|0               1
+0|1               1
+1|1               1
+
+"""
+
+1.
+a=10
+b=8
+
+print(a|b)
+# 10
+
+2.
+c=56
+b=5
+
+print(c|b)
+# 61
+
+# 3.XOR (^) operator
+
+"""XOR operators:
+
+Bitwise Xor operations 
+
+operation     result 
+0^0             0
+1^0             1
+0^1             1
+1^1             0
+
+"""
+1.
+a=10
+b=8
+
+print(a^b)
+# 2
+
+2.
+c=56
+b=5
+
+print(c^b)
+# 61
+
+# 4.<<zero fill left shift
+
+1.
+print(10>>1)
+# 5
+
+2.
+print(5>>6)
+# 0
+
+# 5.>>zero fill right shift
+
+1.
+print(10<<1)
+# 20
+
+2.
+print(5<<6)
+# 320
+
+# .....
