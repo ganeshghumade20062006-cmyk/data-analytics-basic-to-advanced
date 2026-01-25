@@ -758,3 +758,61 @@ print(5<<6)
 # 320
 
 # .....
+
+print("Membership operators")
+
+"""
+Membership operators are used to check the presence of a
+sequence in an object.
+types 
+1.In
+2.Not in
+ """
+
+# 1.In
+
+
+1.
+a="hello"
+print("h" in a)
+# True
+
+2.
+p="Ganesh"
+print("p" in p)
+# False
+
+3.
+p="Ganesh"
+print("f" in p)
+# False
+
+4.
+o="Orange"
+print("r" in o)
+# True
+
+
+# 2.Not in
+
+1.
+a="hello"
+print("h" not in a)
+# False
+
+2.
+p="Ganesh"
+print("p" not in p)
+# True
+
+3.
+p="Ganesh"
+print("f" not in p)
+# True
+
+4.
+o="Orange"
+print("r" not in o)
+# False
+
+# .....
