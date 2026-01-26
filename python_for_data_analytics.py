@@ -816,3 +816,22 @@ print("r" not in o)
 # False
 
 # .....
+
+print("Conditional Statements")
+
+"""
+Conditional statements :
+
+conditional statements allows computer to execute a certain 
+condition only if it is true 
+
+types of conditional statements:
+
+1.If statements
+2.If-else statements
+3.If-elif-statements
+4.Nested statements
+5.Short Hand if statements
+6.SHORT HAND IF-ELSE STATEMENTS
+ """
+# .....
