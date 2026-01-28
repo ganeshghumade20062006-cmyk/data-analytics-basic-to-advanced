@@ -835,3 +835,62 @@ types of conditional statements:
 6.SHORT HAND IF-ELSE STATEMENTS
  """
 # .....
+
+print("IF STATEMENTS")
+
+"""
+if statements
+
+The if statement is the most fundamental decision-making statement
+The if statement in python has the subsequent syntax:
+if expression
+statement
+"""
+
+1.
+marks=56
+
+if marks>=50:
+    print("You will get a mobile phone")
+print("Thank you")
+
+# You will get a mobile phone
+# Thank you
+
+2.
+apple=10
+
+if apple<5:
+    print("Good luck")
+print("Sorry")  
+
+# Sorry
+
+3.
+apple=4
+
+if apple<5:
+    print("Bad luck")
+print("Sorry")
+
+# Bad luck
+# Sorry
+
+4.
+orange=50
+
+if orange>10:
+    print("You are good")
+print("It is ok")    
+# You are good
+# It is ok
+
+5.
+a=20
+if a >30:
+    print("Yes i am present")
+print("ok") 
+
+# ok
+
+# .....
