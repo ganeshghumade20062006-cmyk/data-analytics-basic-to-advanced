@@ -894,3 +894,51 @@ print("ok")
 # ok
 
 # ......
+
+print("IF-ELSE statements")
+
+"""
+IF-ELSE statement
+if-else statement is used when you want to give two condition to the computer
+here if one condition is false, program executes the another condition.
+
+if condition:
+    # will execute this block if the condition is true
+else:
+            # will execle this block if the condition is false
+"""
+
+1.
+marks=56
+if marks>60:
+    print("You will get a mobile")
+else:
+    print("No mobile for one week")
+print("Thank you")
+
+# No mobile for one week
+# Thank you
+
+2.
+orange=10
+if orange<20:
+    print("You are so good")
+else:
+    print("Yes i am good")
+print("Thank you")
+
+# You are so good
+# Thank you
+
+3.
+apple=12
+if apple>10:
+    print("I am a good boy")
+else:
+    print("I am a nice boy")
+print("Thank you")
+
+# I am a good boy
+# Thank you
+
+# .....
