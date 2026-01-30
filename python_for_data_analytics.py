@@ -942,3 +942,89 @@ print("Thank you")
 # Thank you
 
 # .....
+
+print("IF-ELIF-ELSE statements")
+
+"""if-elif-else statement
+in this case, the if condition is evaluated first. If it is false, the elif statement
+will be executed, if it also comes false then else statement will be executed.
+
+for multiple condition, more elif statement are added.
+if condition:
+    body of if
+elif condition:
+       body of elif
+else: 
+"""
+
+1.
+marks=87
+
+if marks>=90:
+    print("You can go to a trip")
+elif marks >=80 and marks<90:
+    print("You will get a new phone")
+elif marks >=70 and marks<80:
+    print("You will get a new book")
+else:
+    print("You will not get your phone back")
+
+# You will get a new phone
+
+2.
+marks=56
+
+if marks>=90:
+    print("You can go to a trip")
+elif marks >=80 and marks<90:
+    print("You will get a new phone")
+elif marks >=70 and marks<80:
+    print("You will get a new book")
+else:
+    print("You will not get your phone back")
+
+# You will not get your phone back
+
+3.
+marks=89
+
+if marks>=90:
+    print("You can go to a trip")
+elif marks >=80 and marks<90:
+    print("You will get a new phone")
+elif marks >=70 and marks<80:
+    print("You will get a new book")
+else:
+    print("You will not get your phone back")
+
+#  You will get a new phone   
+    
+4.
+marks=89
+
+if marks>=90:
+    print("You can go to a trip")
+elif marks >=80 and marks<90:
+    print("You will get a new phone")
+elif marks >=70 and marks<80:
+    print("You will get a new book")
+else:
+    print("You will not get your phone back")
+
+# You will get a new phone    
+
+5.
+marks=75
+
+if marks>=90:
+    print("You can go to a trip")
+elif marks >=80 and marks<90:
+    print("You will get a new phone")
+elif marks >=70 and marks<80:
+    print("You will get a new book")
+else:
+    print("You will not get your phone back")
+
+# You will get a new book
+
+# .....
