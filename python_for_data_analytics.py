@@ -1028,3 +1028,119 @@ else:
 # You will get a new book
 
 # .....
+print("NESTED IF Statements")
+
+"""
+Nested If statement
+A nested if statement is one in which an f statement is nested 
+inside another if statement. This is used when a variable must be 
+processed more then once. The Nested if statement in python has the following
+syntax:
+
+if (condition 1):
+#Executes if condition 1 is true
+if (condition 2):
+#Executes if condition 2 is true  
+#condition 2 ends here
+# condition 1 ends here
+"""
+
+1.
+marks=130
+
+if marks>80:
+    print("You will get a new phone")
+    if marks>95:
+        print("You can go to trip")
+        if marks>100:
+            print("You are too good")
+            if marks>110:
+                print("You will get a new car")
+                if marks>120:
+                    print("Yow will get a bike")
+else:
+    print("Thank you")                    
+
+# You will get a new phone
+# You can go to trip
+# You are too good
+# You will get a new car
+# Yow will get a bike
+
+2.
+marks=101
+
+if marks>80:
+    print("You will get a new phone")
+    if marks>95:
+        print("You can go to trip")
+        if marks>100:
+            print("You are too good")
+            if marks>110:
+                print("You will get a new car")
+                if marks>120:
+                    print("Yow will get a bike")
+else:
+    print("Thank you")   
+
+# You will get a new phone
+# You can go to trip
+# You are too good                     
+
+3.
+marks=81
+
+if marks>80:
+    print("You will get a new phone")
+    if marks>95:
+        print("You can go to trip")
+        if marks>100:
+            print("You are too good")
+            if marks>110:
+                print("You will get a new car")
+                if marks>120:
+                    print("Yow will get a bike")
+else:
+    print("Thank you")
+
+# You will get a new phone
+
+4.
+marks=105
+
+if marks>80:
+    print("You will get a new phone")
+    if marks>95:
+        print("You can go to trip")
+        if marks>100:
+            print("You are too good")
+            if marks>110:
+                print("You will get a new car")
+                if marks>120:
+                    print("Yow will get a bike")
+else:
+    print("Thank you")
+
+# You will get a new phone
+# You can go to trip
+# You are too good
+
+5.
+marks=10
+
+if marks>80:
+    print("You will get a new phone")
+    if marks>95:
+        print("You can go to trip")
+        if marks>100:
+            print("You are too good")
+            if marks>110:
+                print("You will get a new car")
+                if marks>120:
+                    print("Yow will get a bike")
+else:
+    print("Thank you")
+
+# Thank you
+
+# .....
