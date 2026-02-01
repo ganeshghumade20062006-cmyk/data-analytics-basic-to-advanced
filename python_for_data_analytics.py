@@ -1144,3 +1144,34 @@ else:
 # Thank you
 
 # .....
+
+print("SHORT HAND IF STATEMENTS")
+
+"""
+short hand if statement
+short hand if statement is used when only one statement needs to be 
+executed inside the if block. This statement can be mentioned in the 
+ same line which holds the if statement.
+ The short hand if statement in python has the following syntax:
+ if condition:statement
+ """
+
+1.
+marks=97
+if marks>90: print("You will get a new phone")
+
+# You will get a new phone
+
+2.
+marks=87
+if marks>90: print("You will get a new phone")
+
+# (no output)
+
+3.
+marks=100
+if marks>95: print("You are too good")
+
+# You are too good
+
+# .....
