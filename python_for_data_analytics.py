@@ -1175,3 +1175,45 @@ if marks>95: print("You are too good")
 # You are too good
 
 # .....
+print("SHORT HAND IF-ELSE STATEMENTS")
+
+"""
+short hand if else statement 
+
+It is used to mention if-else statements in one line in which 
+there is only one statement to execute in both if and else blocks.
+In simple words, If you have only one statement to execute, one for else,
+you can put it all on the same line.
+"""
+
+1.
+marks=80
+print("You will go to a trip") if marks>70 else print("No phone for a month")
+
+# You will go to a trip
+
+2.
+marks=60
+print("You will go to a trip") if marks>70 else print("No phone for a month")
+
+# No phone for a month
+
+3.
+marks=40
+print("Yor are good") if marks>30 else print("You are smart")
+
+# Yor are good
+
+4.
+marks=100
+print("You will get a bike") if marks>90 else print("Yow  will go home")
+
+# You will get a bike
+
+5.
+apple=70
+print("Apple are good") if apple>100 else print("Apple is red")
+
+# Apple is red
+
+# .....
