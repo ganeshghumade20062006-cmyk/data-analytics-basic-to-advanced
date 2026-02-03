@@ -1217,3 +1217,17 @@ print("Apple are good") if apple>100 else print("Apple is red")
 # Apple is red
 
 # .....
+
+print("INTRODUCTION TO LOOPS AND TYPES")
+
+"""
+LOOPS
+
+A loop means to repeat something in the exact same way.
+types of loops are:
+1.For loop
+2.While loop
+3.While true
+4.Nested loop
+5.For loop with conditional statements
+"""
