@@ -1231,3 +1231,106 @@ types of loops are:
 4.Nested loop
 5.For loop with conditional statements
 """
+print("FOR LOOP")
+
+"""For loop
+. For loop is a loop that repeat something in a given range
+
+. The range has a starting point, ending point and a step/gap in it.
+
+. +1 is added to the ending point while defining a range.
+"""
+
+for i in range (1,6):
+    print(i)
+1
+2
+3
+4
+5
+
+2.
+for i in range (1,6):
+    print("Hello world")
+
+# Hello world
+# Hello world
+# Hello world
+# Hello world
+# Hello world
+
+3.
+for i in range (1,6,2):
+    print(i)
+1
+3
+5
+
+4.
+for i in range (1,25,3):
+    print(i)
+
+1
+4
+7
+10
+13
+16
+19
+22
+
+5.
+n=7 
+for i in range (1,11):
+    print(n,"x",i,'=',n*i)
+
+
+# 7 x 1 = 7
+# 7 x 2 = 14
+# 7 x 3 = 21
+# 7 x 4 = 28
+# 7 x 5 = 35
+# 7 x 6 = 42
+# 7 x 7 = 49
+# 7 x 8 = 56
+# 7 x 9 = 63
+# 7 x 10 = 70
+
+6.
+n=10
+for i in range (1,11):
+    print(n,"x",i,'=',n*i)
+
+# 10 x 1 = 10
+# 10 x 2 = 20
+# 10 x 3 = 30
+# 10 x 4 = 40
+# 10 x 5 = 50
+# 10 x 6 = 60
+# 10 x 7 = 70
+# 10 x 8 = 80
+# 10 x 9 = 90
+# 10 x 10 = 10
+
+7.
+n=50
+for i in range (1,11,3):
+    print(n,"x",i,'=',n*i)
+
+# 50 x 1 = 50
+# 50 x 4 = 200
+# 50 x 7 = 350
+# 50 x 10 = 500    
+
+8.
+n=50
+for i in range (1,11,2):
+    print(n,"x",i,'=',n*i)
+
+# 50 x 1 = 50
+# 50 x 3 = 150
+# 50 x 5 = 250
+# 50 x 7 = 350
+# 50 x 9 = 450  
+
+# .....
