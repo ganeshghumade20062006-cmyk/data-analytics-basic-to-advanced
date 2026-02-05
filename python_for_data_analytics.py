@@ -1334,3 +1334,271 @@ for i in range (1,11,2):
 # 50 x 9 = 450  
 
 # .....
+
+print("WHILE LOOP")
+
+"""
+WHILE LOOP
+
+. Whhile loop executes till the given condition is true
+. In while loop, the increment is done inside the loop. """
+
+n=0
+while n<10:
+    print(n)
+    n+=1
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+2.
+n=1
+while n<10:
+    print(n)
+    n+=3
+
+1
+4
+7
+
+3.
+n=1
+while n<25:
+    print(n)
+    n+=5
+
+1
+6
+11
+16
+21
+
+4.
+n=1
+while n<=25:
+    print(n)
+    n+=5
+1
+6
+11
+16
+21
+
+5.
+n=1
+while n<=10:
+    print(n)
+    n+=1
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+6.
+n=9
+while n<=30:
+    print(n)
+    n+=1
+
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+
+7.
+n=9
+while n<=30:
+    print(n)
+    n+=3
+9
+12
+15
+18
+21
+24
+27
+30
+
+8.
+n=0
+while n<=10:
+    print(n)
+    n+=2
+
+0
+2
+4
+6
+8
+10
+
+9.
+n=1
+a=7
+while n<=10:
+    print(a, "x", n, n*a)
+    n+=1
+# 7 x 1 7
+# 7 x 2 14
+# 7 x 3 21
+# 7 x 4 28
+# 7 x 5 35
+# 7 x 6 42
+# 7 x 7 49
+# 7 x 8 56
+# 7 x 9 63
+# 7 x 10 70
+
+10.
+a=1
+b=18
+while a<=10:
+    print(b, "x", a, "x", a*b )
+    a+=1
+
+# 18 x 1 x 18
+# 18 x 2 x 36
+# 18 x 3 x 54
+# 18 x 4 x 72
+# 18 x 5 x 90
+# 18 x 6 x 108
+# 18 x 7 x 126
+# 18 x 8 x 144
+# 18 x 9 x 162
+# 18 x 10 x 180    
+
+11.
+a=1
+b=18
+while a<=10:
+    print(b, "x", a, "x", a*b )
+    a+=3
+
+# 18 x 1 x 18
+# 18 x 4 x 72
+# 18 x 7 x 126
+# 18 x 10 x 180  
+
+  
+
+12.
+a=1
+b=20
+while a<=10:
+    print(b, "x", a, "x", a*b )
+    a+=1
+
+# 20 x 1 x 20
+# 20 x 2 x 40
+# 20 x 3 x 60
+# 20 x 4 x 80
+# 20 x 5 x 100
+# 20 x 6 x 120
+# 20 x 7 x 140
+# 20 x 8 x 160
+# 20 x 9 x 180
+# 20 x 10 x 200
+
+
+13.
+a=1
+b=20
+while a<=10:
+    print(b, "x", a, "x", a*b )
+    a+=3
+
+
+# 20 x 1 x 20
+# 20 x 4 x 80
+# 20 x 7 x 140
+# 20 x 10 x 200
+
+14.
+a=3
+b=1
+while b<=10:
+    print(a, "x", b, "=", a*b)
+    b+=1
+
+# 3 x 1 = 3
+# 3 x 2 = 6
+# 3 x 3 = 9
+# 3 x 4 = 12
+# 3 x 5 = 15
+# 3 x 6 = 18
+# 3 x 7 = 21
+# 3 x 8 = 24
+# 3 x 9 = 27
+# 3 x 10 = 30
+
+15.
+n=1
+a=int(input("Enter a number here: "))
+while n<=10:
+    print(a, "x", n, "=", n*a)
+    n+=1
+
+#  Enter a number here: 25
+# 25 x 1 = 25
+# 25 x 2 = 50
+# 25 x 3 = 75
+# 25 x 4 = 100
+# 25 x 5 = 125
+# 25 x 6 = 150
+# 25 x 7 = 175
+# 25 x 8 = 200
+# 25 x 9 = 225
+# 25 x 10 = 250
+
+16.
+n=1
+a=int(input("Enter a number here: "))
+while n<=10:
+    print(a, "x", n, "=", n*a)
+    n+=1
+
+# Enter a number here: 48
+# 48 x 1 = 48
+# 48 x 2 = 96
+# 48 x 3 = 144
+# 48 x 4 = 192
+# 48 x 5 = 240
+# 48 x 6 = 288
+# 48 x 7 = 336
+# 48 x 8 = 384
+# 48 x 9 = 432
+# 48 x 10 = 480
+
+# .....
