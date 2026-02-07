@@ -1602,3 +1602,94 @@ while n<=10:
 # 48 x 10 = 480
 
 # .....
+print("WHILE TRUE")
+
+"""WHILE True
+. It is an infinite loop
+. To break a while True loop, break statement is used."""
+
+while True:
+    print("hello")
+
+# output=infinity (hello)
+
+n=1
+while True:
+    print(n)
+    n+=1
+output= Infinity
+
+
+2.
+while True:
+    num1 = int(input("Enter a number here: "))
+    num2= int(input("Enter another number here: "))
+
+    print(num1+num2)
+
+
+# Enter a number here: 12
+# Enter another number here: 56
+# 68
+# Enter a number here: 45
+# Enter another number here: 78
+# 123
+# Enter a number here: 56
+# Enter another number here: 75
+# 131
+# Enter a number here: 12
+# Enter another number here: 75
+# 87
+# Enter a number here: 45
+# Enter another number here: 78
+# 123
+# Enter a number here:
+# ...... upto infinity
+
+#  to stop  infinity loop use break statement 
+
+while True:
+    num1=int(input("Enter a number here: "))
+    num2=int(input("Enter another number here: "))
+
+    print(num1+num2)
+    repeat=input("Do you want to stop the program: ")
+    if repeat == "yes":
+        break
+ 
+
+
+while True:
+    num1=int(input("Enter a number here: "))
+    num2=int(input("Enter another number here: "))
+
+    print(num1+num2)
+    repeat=input("Do you want to stop the program: ")
+    if repeat == "yes":
+        break
+
+# Enter a number here: 12
+# Enter another number here: 36
+# 48
+# Do you want to stop the program: yes
+
+
+while True:
+    num1=int(input("Enter a number here: "))
+    num2=int(input("Enter another number here: "))
+
+    print(num1+num2)
+    repeat=input("Do you want to stop the program: ")
+    if repeat == "yes":
+        break
+
+# Enter a number here: 12
+# Enter another number here: 36
+# 48
+# Do you want to stop the program: no
+# Enter a number here: 12
+# Enter another number here: 45
+# 57
+# Do you want to stop the program: yes  
+
+# .....
